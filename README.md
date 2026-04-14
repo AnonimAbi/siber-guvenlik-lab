@@ -1,16 +1,16 @@
 # 🛡️ Siber Güvenlik Laboratuvarım
 
-Bu repo, sıfırdan siber güvenlik öğrenme yolculuğunda referans olarak kullanılabilir.
+Bu repo, sıfırdan siber güvenlik öğrenme yolculuğunuzda yazdığım Python script'lerini içerir.
 
-## 🎯 Hedef
-- CompTIA Security+ Sertifikası
-- Python ile kendi hack araçlarımızı yazmak
-- GitHub profilini bir CV'ye dönüştürmek
+## 📁 Klasörler ve İçerikleri
 
-## 📁 Klasör Yapısı
-- 01_Tarama/ → Python ile Port Tarayıcılar
-- 02_Sizma/ → Zafiyet Exploit Scriptleri
+| Klasör | Açıklama | İçerik |
+| :--- | :--- | :--- |
+| 01_Tarama/ | Ağ keşfi ve port tarama araçları. | port_scanner.py -> Temel TCP Port Tarayıcı. |
+| 02_Sizma/ | Bilinen zafiyetleri kontrol eden script'ler. | vsftpd_234_checker.py -> vsftpd 2.3.4 Backdoor Kontrolü. |
 
-## 🛠️ Lab Ortamımız
-- *Saldırgan:* Kali Linux
-- *Kurban:* Metasploitable 2
+## 🚀 Nasıl Kullanılır?
+
+Her script'in başında kullanım talimatları bulunur. Örnek kullanım:
+```bash
+python3 01_Tarama/port_scanner.py 10.0.2.3
